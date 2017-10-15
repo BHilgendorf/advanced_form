@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <title>Profile</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="advanced_form.css">
+    </head>
+    <body>
+      <h1>Create Your Profile</h1>
+      <form action="#" method="post">
+        <fieldset>
+            <h2>Personal Info</h2>
+            <div class="name">
+              <label for="first_name">Your Name</label>
+              <input class="two-column" type="text" name="first_name" id="first_name" placeholder="First">
+            </div><!--
+            
+            --><div class="name last">
+              <label for="last_name"></label>
+              <input class="two-column" type="text" name="last_name" id="last_name" placeholder="Last">
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+
+        <fieldset>
+          <h2>Social Media Accounts</h2>
+          <div class="social">
+            <div>
+              <label for="facebook">Facebook</label>
+              <input type="text" name="facebook" id="facebook">
+            </div><!--
+
+            --><div>
+              <label for="twitter">Twitter</label>
+              <input type="text" name="twitter" id="twitter">
+            </div><!--
+
+            --><div>
+              <label for="linkedin">Linkedin</label>
+              <input type="text" name="linkedin" id="linkedin">
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <h2>Account Info</h2>
+          <label for="profile_name">Profile Name</label>
+          <input type="text" name="profile_name" id="profile_name">
+
+          <div class="passwords">
+            <div class="two-column first-column">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password">
+            </div><!--
+            --><div class="two-column">
+              <label for="password2">Confirm Password</label>
+              <input type="password" name="password2" id="password2">
+            </div>
+        </div>
+        </fieldset>
+
+        <fieldset>
+          <h2>Bio</h2>
+          <textarea></textarea>
+        </fieldset>
+
+        <fieldset class="agreement">
+          <label><input type="checkbox" name="agree" value="agree">
+              I agree to treat other users with respect, and will not say anything at all if I have nothing nice to say.
+          </label>
+
+          <input type="submit" value="Create Account">
+        </fieldset>
+      </form>
+
+    </body>
+</html>

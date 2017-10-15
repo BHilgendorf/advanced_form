@@ -1,0 +1,149 @@
+/*===================================================*/
+/* Main Styles                                       */
+/*===================================================*/
+html {
+  box-sizing: border-box;
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: #282828;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 650px;
+  min-width: 354px;
+  margin: 0 auto;
+}
+
+form {
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 1.75rem 1.5rem 0 1.5rem;
+  font-size: 1.75rem;
+}
+
+h2 {
+  padding-bottom: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/*===================================================*/
+/* Form Base Styles                                  */
+/*===================================================*/
+fieldset {
+  padding: 1.5rem 2rem;
+  border-left: 4px solid #ccc;
+  margin-bottom: 2px;
+  background: #ececec;
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 25px;
+  border: 1px solid #06c;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+/*===================================================*/
+/* Personal Info Styles                              */
+/*===================================================*/
+.name {
+  display: inline-block;
+  width: 49%;
+}
+
+.last {
+  margin-left: 2%;
+}
+
+label[for="last-name"] {
+  display: none;
+}
+
+input[name="email"] {
+  width: 100%;
+}
+
+/*===================================================*/
+/* Social Media Styles                               */
+/*===================================================*/
+.social div {
+  display: inline-block;
+  width: 33.3%;
+  padding-right: 1.25rem;
+}
+
+.social div:last-of-type {
+  padding-right: 0;
+}
+
+/*===================================================*/
+/* Account Info  Styles                              */
+/*===================================================*/
+input[name="profile_name"] {
+  width: 100%;
+}
+
+.two-column {
+  display: inline-block;
+  width: 50%;
+}
+
+.first-column {
+  padding-right: 1.25rem;
+}
+
+label[for="password2"] {
+  white-space: nowrap;
+}
+
+/*===================================================*/
+/* Account Info  Styles                              */
+/*===================================================*/
+textarea {
+  height: 108px;
+  width: 100%;
+}
+
+/*===================================================*/
+/* Agreement Styles                                  */
+/*===================================================*/
+.agreement label {
+  font-weight: normal;
+  font-size: 0.875rem;
+  padding-bottom: 20px;
+}
+
+input[type="submit"] {
+  padding: 0.875rem 2rem;
+  background: #06c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #5f95cc;
+}
