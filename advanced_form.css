@@ -76,14 +76,13 @@ textarea {
   margin-left: 2%;
 }
 
-label[for="last-name"] {
-  display: none;
-}
-
 input[name="email"] {
   width: 100%;
 }
 
+label[for="last_name"] {
+  display: none;
+}
 /*===================================================*/
 /* Social Media Styles                               */
 /*===================================================*/
